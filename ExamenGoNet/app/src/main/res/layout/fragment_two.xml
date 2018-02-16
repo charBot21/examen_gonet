@@ -7,4 +7,50 @@
     android:layout_height="match_parent"
     android:background="@color/azulF">
 
+    <LinearLayout
+        android:id="@+id/imgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListImages1"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/imgs">
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/sUno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <LinearLayout
+                android:id="@+id/cont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListImages2"
+        app:layout_constraintTop_toBottomOf="@+id/ListImages1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
