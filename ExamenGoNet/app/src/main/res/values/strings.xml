@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PagaTodo</string>
+    <string name="TODO">TODO</string>
+
+    <!-- Strings agregados -->
+    <string name="usr">Usuario</string>
+    <string name="pass">******</string>
+    <string name="inises">   INICIAR SESIÓN  </string>
+
+    <string name="b">Bienvenido</string>
+
+</resources>
